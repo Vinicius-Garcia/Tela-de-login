@@ -13,6 +13,7 @@
     </div>
 
     <div class="container">
+
         <img src="./assets/logo.jpg" class="logo">
         <div class="inputs">
             <input class="email" placeholder="Email">
@@ -24,22 +25,29 @@
 
         </div>
         <div class="sub">
-            <a class="a" href="#">Esqueceu a senha?</a>
+            <input type="checkbox" id="check"><a id="check1">Mantenha-me Conectado</a></input>
+
+            <a class="a" onclick="flip()">Esqueceu a senha?</a>
+
 
         </div>
-        <div>
-            <p class="x"></p>
+        <div class="x">
+
         </div>
+
         <div class="social">
-            <button class="face" type="button">LOGIN COM FACEBOOK</button>
+            <button class="face" type="button" onclick="flip()">LOGIN COM FACEBOOK</button>
             <button class="google" type="button">LOGIN COM GOOGLE</button>
+
         </div>
+
+
 
 
     </div>
 
 
-
+    <script src="./main.js"></script>
 
 </body>
 
