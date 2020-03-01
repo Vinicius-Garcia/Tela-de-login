@@ -14,7 +14,7 @@
     }
     
     .container {
-        height: 540px;
+        height: 530px;
         width: 440px;
         position: absolute;
         background-color: #37264e;
@@ -146,4 +146,25 @@
     
      ::placeholder {
         color: white;
+    }
+    
+    input:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+    
+    button:focus {
+        outline: none;
+    }
+    
+    input:focus {
+        outline: none;
+    }
+    
+    .icon {
+        padding: 10px;
+        min-width: 40px;
+    }
+    
+    .inputs i {
+        position: absolute;
     }
